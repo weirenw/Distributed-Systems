@@ -1,0 +1,7 @@
+run 10 pushsum
+run 10 full pushsum
+run 10 full gossip
+run 10 2D push-sum
+q
+exit
+run project2 "200 imp2D push-sum"

@@ -1,0 +1,10 @@
+project project3
+project project3.scala
+project -run 500 1
+project3 -run 500 1
+project -run 500 1
+exit
+run 500 1
+exit
+run 500 1
+exit

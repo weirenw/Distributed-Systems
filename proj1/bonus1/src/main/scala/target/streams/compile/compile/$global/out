@@ -1,0 +1,38 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/administrator/scala0/proj1/bonus1/src/main/scala/proj1.scala, /home/administrator/scala0/proj1/bonus1/src/main/scala/proj1_remotecreation.scala, /home/administrator/scala0/proj1/bonus1/src/main/scala/subboss.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/administrator/scala0/proj1/bonus1/src/main/scala/proj1.scala, /home/administrator/scala0/proj1/bonus1/src/main/scala/proj1_remotecreation.scala, /home/administrator/scala0/proj1/bonus1/src/main/scala/subboss.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mInitially invalidated: Set(/home/administrator/scala0/proj1/bonus1/src/main/scala/proj1.scala, /home/administrator/scala0/proj1/bonus1/src/main/scala/proj1_remotecreation.scala, /home/administrator/scala0/proj1/bonus1/src/main/scala/subboss.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /home/administrator/scala0/proj1/bonus1/src/main/scala/target/scala-2.9.1/classes...[0m
+[0m[[0mdebug[0m] [0mInterfacing (CompilerInterface) with Scala compiler version 2.9.1.final[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/home/administrator/scala0/proj1/bonus1/src/main/scala/target/scala-2.9.1/classes[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-6-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-openjdk-i386/jre/classes:/home/administrator/.sbt/boot/scala-2.9.1/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/administrator/scala0/proj1/bonus1/src/main/scala/target/scala-2.9.1/classes[0m
+[0m[[0mdebug[0m] [0m	/home/administrator/scala0/proj1/bonus1/src/main/scala/proj1.scala[0m
+[0m[[0mdebug[0m] [0m	/home/administrator/scala0/proj1/bonus1/src/main/scala/proj1_remotecreation.scala[0m
+[0m[[0mdebug[0m] [0m	/home/administrator/scala0/proj1/bonus1/src/main/scala/subboss.scala[0m
+[0m[[31merror[0m] [0m/home/administrator/scala0/proj1/bonus1/src/main/scala/proj1.scala:3: not found: object akka[0m
+[0m[[31merror[0m] [0mimport akka.actor._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/home/administrator/scala0/proj1/bonus1/src/main/scala/proj1.scala:8: missing parameter type for expanded function[0m
+[0m[[31merror[0m] [0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[31merror[0m] [0mExpected type was: ?[0m
+[0m[[31merror[0m] [0m  def receive = {//react[0m
+[0m[[31merror[0m] [0m                ^[0m
+[0m[[31merror[0m] [0m/home/administrator/scala0/proj1/bonus1/src/main/scala/proj1.scala:11: value * is not a member of Any[0m
+[0m[[31merror[0m] [0m      var ans0 = len*(cur+(len-1l)/2l)*(cur+(len-1l)/2l)+len*(cur+(len-1l)/2l)+endConstant [0m
+[0m[[31merror[0m] [0m                    ^[0m

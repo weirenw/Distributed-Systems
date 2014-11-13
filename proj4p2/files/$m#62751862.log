@@ -1,0 +1,2 @@
+Id: msg(121,130,24) message: msg(121,130,24) received_from $a#1762286575 local_logical_time 14 sender_logical_clock 13 physical_clock 1386283348243
+Id: 121 message: 121 sent_to $a#1762286575 logical_time 15 physical_time 1386283348243
